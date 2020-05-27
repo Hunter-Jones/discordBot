@@ -1,0 +1,19 @@
+How to run:
+	-Setup Bot
+	1. Go to https://discord.com/developers/applications/ and create a bot 
+		1.1 Optionally change the name and app icon for the bot
+	2. Open the bot's page and find the client id
+	3. Go to https://discordapp.com/api/oauth2/authorize?client_id=BOT_ID&permissions=8&scope=bot to invite the bot to a discord server
+		3.1 REPLACE BOT_ID with the client key
+	4. Find the client secret and fill it into the secretToken constant at the top of discordBot.js
+
+	-Run Code
+	1. Download and configure Nodejs
+	2. Open command line and CD to the directory the files are in
+	3. Run node app.js 
+
+	At this point, you should see a message that the bot is connected
+	You should then see the bot is online in the server
+	Once you confirmed that the bot is working, just use /help to get a command list
+
+
