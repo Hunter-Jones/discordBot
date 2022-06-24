@@ -11,6 +11,6 @@
   "dependencies": {
     "discord.js": "^11.4.2",
     "eslint": "^5.16.0",
-    "jsdom": "^14.0.0"
+    "jsdom": "^16.5.0"
   }
 }
